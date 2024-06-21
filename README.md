@@ -66,8 +66,8 @@ This project demonstrates the use of machine learning for hand sign detection us
 
 **1. Dataset Folder Structure**
    First you need to reorganize your image dataset to follow the dataset folder structure bellow.
-   Your_Dataset_Folder
    ``````Shell
+   |Your_Dataset_Folder
    |--Folder_Label_A
            |----- image1.png
            |----- image2.png
