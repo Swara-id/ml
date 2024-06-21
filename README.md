@@ -11,6 +11,11 @@ This project focuses on detecting hand signs using machine learning. The data fo
 ## Preprocessing
 We used the Mediapipe library to preprocess the video frames/images and extract hand landmarks.
 
+### Data Cleaning and Filtering
+Before image datasets get processed by mediapipe for feature extration we do some cleaning process by filtering image that cannot be detected by mediapipe such ad no hands detected or missmatch landmarks position. We done the filtering by code and also manually filtering. bellow are the example of good image and bad image.
+
+![Filtering Images](assets/badvsgoodImage.png)
+
 ### Mediapipe Hand Landmarks
 Mediapipe is an open-source framework that provides machine learning solutions for live and streaming media. We used the Mediapipe Hands solution to detect and track hand landmarks.
 
