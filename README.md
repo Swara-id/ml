@@ -62,6 +62,29 @@ After testing on real-time the model gave good result and able to detect hand si
 ## Conclusion
 This project demonstrates the use of machine learning for hand sign detection using video data. The combination of Mediapipe for feature extraction and DNN for classification provides a robust approach to recognizing hand signs.
 
+## How to use this Project
+
+1. First you need to reorganize the image dataset to follow the dataset folder structure bellow.
+   Your_Dataset_Folder
+   ``````Shell
+   |--Folder_Label_A
+           |----- image1.png
+           |----- image2.png
+           ...
+           |----- image99.png
+   |--Folder_Label_B
+           |----- image1.png
+           |----- image2.png
+           ...
+           |----- image99.png
+   ...
+   |--Folder_Label_Z
+           |----- image1.png
+           |----- image2.png
+           ...
+           |----- image99.png
+   ``````
+   
 ## Future Work
 - **Data Augmentation**: Increase the dataset with more diverse hand signs and different lighting conditions.
 - **Model Optimization**: Experiment with different architectures and hyperparameters to improve model performance.
