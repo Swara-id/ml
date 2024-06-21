@@ -43,8 +43,11 @@ After training, the model was evaluated on a test dataset to determine its accur
 After testing on real-time the model gave good result and able to detect hand sign language in real-time.
 
 ![Landmarks Coordinate](assets/RealtilemResult1.png)
-![Landmarks Coordinate](assets/RealtilemResult2.png)
+![Landmarks Coordinate](assets/RealtilemResult22.png)
 ![Landmarks Coordinate](assets/RealtilemResult3.png)
+![Landmarks Coordinate](assets/RealtilemResult4.png)
+![Landmarks Coordinate](assets/RealtilemResult5.png)
+![Landmarks Coordinate](assets/RealtilemResult6.png)
 
 ## Conclusion
 This project demonstrates the use of machine learning for hand sign detection using video data. The combination of Mediapipe for feature extraction and DNN for classification provides a robust approach to recognizing hand signs.
