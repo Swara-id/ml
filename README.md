@@ -64,7 +64,7 @@ This project demonstrates the use of machine learning for hand sign detection us
 ## Future Work
 - **Data Augmentation**: Increase the dataset with more diverse hand signs and different lighting conditions.
 - **Model Optimization**: Experiment with different architectures and hyperparameters to improve model performance.
-- **Feature Extraction Optimization**: Experiment with different Landmarks FeatureExtraction process to improve model performance.
+- **Feature Extraction Optimization**: Experiment with different Landmarks Feature Extraction process to improve model performance.
 
 ## References
 - [Mediapipe Documentation](https://google.github.io/mediapipe/)
