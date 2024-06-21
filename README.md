@@ -64,7 +64,8 @@ This project demonstrates the use of machine learning for hand sign detection us
 
 ## How to use this Project
 
-1. First you need to reorganize the image dataset to follow the dataset folder structure bellow.
+**1. Dataset Folder Structure**
+   First you need to reorganize your image dataset to follow the dataset folder structure bellow.
    Your_Dataset_Folder
    ``````Shell
    |--Folder_Label_A
@@ -84,6 +85,20 @@ This project demonstrates the use of machine learning for hand sign detection us
            ...
            |----- image99.png
    ``````
+
+**2. Cleaning and filtering**
+   The second step is Data cleaning and filtering where this process were at file **new-exploring-data.ipynb**. There are two type of filtering **no hands detected filter** and **landmarks missmatch filtering**.
+   - **landmarks missmatch filtering** : To delete image with missmatch landmarks firts you need to run **Generate Annotated Raw** Code where this code will generated a new dataset with annotated image where you need to create a folder first to store the annotated image, the folder structure will have the same as step 1. after done creating annotated image you need to manually deleted annotated image with missmatched ladnmarks on each labels. after done deleting annotated image you can run **Delete Manual Image with Landmark not Precise** code where this code will use annotated image dataset as the reference to delete image in your raw image dataset folder with missmatched landmarks point.
+   - **no hands detected filter** : No hands detected filter doesn't require you to manually deleted, you just need to run Filter **Image in Hand Not Found and Incomplete Landmark** code and all image where no hands were detected by mediapipe will automatically deleted.
+
+**3. Features Extraction**
+the third step Feature extraction you just need to run a code in **extract_feature.ipynb** file where you just need to change the ouput dir and the input dir with you own folder path. the utput of the code will be a number of csv file where each csv name are label with data of landmarks coordinate of respective label.
+
+**4. Model Training**
+After done all the preprocessing step you can run all the code in order on **new_modelling.ipynb** file.
+
+**5. Model testing**
+If you want to test yout model for real-time prediction you can run a code in **real-time-predict.ipynb** file all you need to do is set the model path and changin class_labels variable to you respective class labels
    
 ## Future Work
 - **Data Augmentation**: Increase the dataset with more diverse hand signs and different lighting conditions.
