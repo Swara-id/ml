@@ -8,6 +8,14 @@ This project focuses on detecting hand signs using machine learning. The data fo
 - **Self-recordings**: We recorded videos of ourselves performing various hand signs.
 - **YouTube videos**: We sourced additional videos from YouTube to increase the diversity and volume of our dataset.
 
+from both source we get a total of images of 23,102 images and 66 Labels that can be used for training model with 14,207 image of words handsign and 8,895 images of alphabet Handsign.
+
+Word Hand sign labels : 
+``````SQL
+[Jawab, Sore, Bagaimana, Siang, Sekarang, Pagi, Nanti, Malam, Lusa, Kerja, Kemarin, Kantor, Hari Ini, Besok, Aku, Bapak, Dia, Ibu, Kalian, Kamu, Lelah, Maaf, Makan, sama, sedih, senang, terima kasih, Tolong, Apa, Baik, Berapa, Halo, Dimana, Kapan, Kemana, Mengapa, Sabar, Sakit, Siapa, Tidur]
+``````
+Alphabet Hand sign labels : A - Z 
+
 ## Preprocessing
 We used the Mediapipe library to preprocess the video frames/images and extract hand landmarks.
 
