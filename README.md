@@ -46,6 +46,7 @@ The DNN model was designed to classify different hand signs based on the 126 coo
 
 ## Results
 After training, the model was evaluated on a test dataset to determine its accuracy in classifying hand signs. The evaluation metrics include Confussion Matrix and recall.
+
 ![Landmarks Coordinate](assets/Result.jpeg)
 
 ### Real-time Prediction
